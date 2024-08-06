@@ -13,8 +13,8 @@ export const Button = ({children}:{children:ReactNode}) => {
 
 export const ArrowButton = () => {
   return(
-    <div className='bg-transparent border border-orange-seu-treino rounded-2xl p-2 text-center cursor-pointer'>
-      <div className='bg-yellow-seu-treino rounded-xl p-1 text-center'>
+    <div className='flex bg-transparent border border-orange-seu-treino rounded-2xl p-2 text-center justify-center cursor-pointer w-fit'>
+      <div className='flex bg-yellow-seu-treino rounded-xl p-1 text-center justify-center'>
         <MdOutlineArrowOutward className='text-4xl text-black' />
       </div>
     </div>
