@@ -1,8 +1,8 @@
 import { YouAreReady } from '@/components/sections/YouAreReady'
-import './App.css'
-import { Limiter } from './components/Limiter'
 import { MainBanner } from './components/sections/MainBanner'
 import { WhatYouWillGain } from '@/components/sections/WhatYouWillGain'
+import { WhyChoseUs } from '@/components/sections/WhyChoseUs'
+import './App.css'
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
     <MainBanner/>
     <YouAreReady/>
     <WhatYouWillGain/>
+    <WhyChoseUs/>
   </main>
   )
 }

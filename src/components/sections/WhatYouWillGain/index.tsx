@@ -1,4 +1,4 @@
-import { Limiter } from '@/components/Limiter'
+import { Section } from '@/components/Section'
 import { ContentAndPhoto } from '@/components/sections/YouAreReady/ContentAndPhoto'
 import { ContentAndPhotoType } from '@/types/ContentAndPhoto'
 
@@ -26,11 +26,10 @@ export const WhatYouWillGain = () => {
     },
   ]
   return (
-    <div className='py-4 bg-neutral-900 text-center'>
-      <Limiter>
-        <h2 className='font-extrabold text-4xl mb-6'>O que você vai ganhar<span className='text-yellow-seu-treino'>?</span></h2>
-        {contentAndPhotoData.map((contentAndPhoto, index:number) => <ContentAndPhoto title={contentAndPhoto.title} content={contentAndPhoto.content} photo={contentAndPhoto.photo} key={index} index={index} className='my-8'/>)}
-      </Limiter>
-    </div>
+  <Section className='py-4 bg-neutral-900 text-center'>
+      <h2 className='font-extrabold text-4xl mb-6'>O que você vai ganhar<span className='text-yellow-seu-treino'>?</span></h2>
+      {contentAndPhotoData.map((contentAndPhoto, index:number) => <ContentAndPhoto title={contentAndPhoto.title} content={contentAndPhoto.content} photo={contentAndPhoto.photo} key={index} index={index} className='my-8'/>)}
+  </Section>
+
   )
 }
