@@ -1,5 +1,5 @@
-import { Limiter } from '@/components/Limiter'
 import { Section } from '@/components/Section'
+import brenoSilvaImg from '@/assets/breno-silva-persona-trainer.jpg'
 
 export const YouAreReady = () => {
   return (
@@ -14,7 +14,7 @@ export const YouAreReady = () => {
       </div>
       <div className='w-1/3'>
         <div className='border border-orange-seu-treino rounded-lg min-h-[128px] '>
-          <img src={'#'} alt='Foto do Breno Silva'/>
+          <img src={brenoSilvaImg} alt='Foto do Breno Silva'/>
         </div>
       </div>
     </div>

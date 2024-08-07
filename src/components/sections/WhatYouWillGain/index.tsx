@@ -1,28 +1,28 @@
 import { Section } from '@/components/Section'
 import { ContentAndPhoto } from '@/components/sections/YouAreReady/ContentAndPhoto'
 import { ContentAndPhotoType } from '@/types/ContentAndPhoto'
-
+import tempImage from '@/assets/mulher-treinando.jpg'
 export const WhatYouWillGain = () => {
   const contentAndPhotoData:ContentAndPhotoType[] = [
     {
       title:'Transformação Total em 28 Dias',
       content:"Treinamentos intensivos e eficazes, 100% com peso corporal, que você pode fazer em qualquer lugar.",
-      photo:'#'
+      photo:tempImage
     },
     {
       title:'Desenvolvimento de Mindset',
       content:"Acesse conteúdos exclusivos e diários que vão trabalhar sua mente, ajudando a criar uma mentalidade vencedora e resiliente.",
-      photo:'#'
+      photo:tempImage
     },
     {
       title:'Alimentação Saudável',
       content:"Receba dicas e materiais extras sobre nutrição para potencializar seus resultados cuidadosamente elaborados pela renomada nutricionista Natane Menezes.",
-      photo:'#'
+      photo:tempImage
     },
     {
       title:'Apoio Contínuo',
       content:"Participe de um grupo fechado onde você terá acesso vitalício à nossa rede de membros, para compartilhar treinos, refeições, relatos e conquistas.",
-      photo:'#'
+      photo:tempImage
     },
   ]
   return (

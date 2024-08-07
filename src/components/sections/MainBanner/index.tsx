@@ -1,9 +1,10 @@
 import logo from '@/assets/logo-seu-treino-linha-branca-breno-silva.png'
 import { ArrowButton } from '@/components/Button'
 import { Section } from '@/components/Section'
+import './style.css'
 export const MainBanner = () => {
   return (
-    <Section className='pb-32 pt-16'>
+    <Section className='pb-32 pt-16 firstSection'>
       <img src={logo} alt='logo' className='max-w-[312px]'/>
       <div className="flex items-center gap-6">
         <div>
