@@ -1,11 +1,12 @@
-import React, { ReactNode } from 'react'
 import { MdOutlineArrowOutward } from 'react-icons/md'
 
-export const Button = ({children}:{children:ReactNode}) => {
+export const Button = ({text = 'Garanta sua inscrição'}:{text?:string}) => {
   return (
-    <div className='border border-orange-seu-treino rounded-xl'>
-      <div className='bg-yellow-seu-treino -mb-4 -ml-4 rounded-xl p-4 text-center'>
-        {children}
+    <div className='text-black cursor-pointer mt-8 ml-4 transition ease-in-out hover:scale-110 duration-300 max-w-[268px]'>
+      <div className="border border-orange-seu-treino rounded-xl pb-2 pr-2 ">
+        <div className='flex bg-gradient-to-r from-orange-seu-treino via-white to-orange-seu-treino  -mt-4 -ml-4 rounded-xl p-3 text-center z-10 font-bold  items-center uppercase'>
+          <span>{text}</span>
+        </div>
       </div>
     </div>
   )
