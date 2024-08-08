@@ -1,3 +1,4 @@
+import { ImageWithborder } from '@/components/ImageWithBorder'
 import { ContentAndPhotoType } from '@/types/ContentAndPhoto'
 import React from 'react'
 
@@ -23,8 +24,7 @@ export const ContentAndPhoto = ({title, content, photo, altText, index, classNam
 export const ContentAndPhotoImage = ({photo, index, altText='Imagem do benefício'}:{photo:string, index:number, altText?:string}) => {
   return(
     <div className=''>
-        <div className='z-10 border border-orange-seu-treino absolute w-1/2 h-fit rounded-xl'></div>
-        <img src={photo} alt={altText}/>
+      <ImageWithborder image={photo} altText={altText} width={'500px'} height={'420px'}/>
     </div>
   )
 }

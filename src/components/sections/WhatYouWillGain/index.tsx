@@ -1,5 +1,5 @@
 import { Section } from '@/components/Section'
-import { ContentAndPhoto } from '@/components/sections/YouAreReady/ContentAndPhoto'
+import { ContentAndPhoto } from '@/components/sections/WhatYouWillGain/ContentAndPhoto'
 import { ContentAndPhotoType } from '@/types/ContentAndPhoto'
 import tempImage from '@/assets/mulher-treinando.jpg'
 export const WhatYouWillGain = () => {

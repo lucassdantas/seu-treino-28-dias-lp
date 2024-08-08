@@ -1,6 +1,7 @@
 import { Section } from '@/components/Section'
 import brenoSilvaImg from '@/assets/breno-silva-persona-trainer.jpg'
 import { Button } from '@/components/Button'
+import { ImageWithborder } from '@/components/ImageWithBorder'
 
 export const YouAreReady = () => {
   return (
@@ -15,10 +16,7 @@ export const YouAreReady = () => {
         </div>
       </div>
       <div className='w-2/6'>
-        <div className='rounded-lg min-h-[128px] '>
-          <div className="h-[512px] w-full lg:w-[328px] z-10 absolute border border-orange-seu-treino rounded-xl mt-2 "></div>
-          <img src={brenoSilvaImg} alt='Foto do Breno Silva' className=' -ml-2 rounded-xl h-[512px] lg:w-[328px] w-full object-cover'/>
-        </div>
+        <ImageWithborder image={brenoSilvaImg} altText='Foto do Breno Silva' height={'512px'} width={'328px'}/>
       </div>
     </div>
   </Section>
