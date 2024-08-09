@@ -12,11 +12,11 @@ export const Button = ({text = 'Garanta sua inscrição', className=''}:{text?:s
   )
 }
 
-export const ArrowButton = ({size='4xl', rounded='xl', borderRounded='2xl'}:{size?:string, rounded?:string, borderRounded?:string}) => {
+export const ArrowButton = ({size=50, rounded='xl', borderRounded='2xl'}:{size?:number, rounded?:string, borderRounded?:string}) => {
   return(
-    <div className={`flex bg-transparent border border-orange-seu-treino rounded-${borderRounded} p-3 text-center justify-center cursor-pointer w-fit`}>
-      <div className={`flex bg-yellow-seu-treino rounded-${rounded} p-1 text-center justify-center`}>
-        <MdOutlineArrowOutward className={`text-${size} text-black`} />
+    <div className={`flex bg-transparent border border-orange-seu-treino rounded-${borderRounded} p-3 text-center justify-center cursor-pointer w-fit transition ease-in-out hover:scale-110 duration-300 `}>
+      <div className={`flex bg-gradient-to-r from-orange-seu-treino via-white to-orange-seu-treino rounded-${rounded} p-1 text-center justify-center`}>
+        <MdOutlineArrowOutward className={` text-black`}  size={size} />
       </div>
     </div>
   )
