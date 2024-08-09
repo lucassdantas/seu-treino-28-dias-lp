@@ -24,13 +24,15 @@ export const ReasonCards = () => {
 
 export const Card = ({title, content, cardNumber}:{title:string, content:string, cardNumber:number}) => {
   return(
-    <div className='relative bg-white p-4 rounded-xl text-black text-left w-1/3 min-h-[412px]'>
-      <div className="absolute border border-black  pr-[3px] pb-[3px] rounded-xl top-0 left-0">
-        <div className=' text-center rounded-xl -mt-2 -ml-2 bg-orange-seu-treino p-1 font-bold text-2xl w-[42px]'>{cardNumber}</div>
-      </div>
-      <div className='mt-6'>
-        <h3 className='font-bold text-2xl'>{title}</h3>
-        <p>{content}</p>
+    <div className="border border-orange-seu-treino rounded-xl w-1/3 pb-2 pr-2 ml-2 mt-4">
+      <div className='relative bg-white p-4 rounded-xl text-black text-left min-h-[412px] -mt-4 -ml-2'>
+        <div className="absolute border border-black  pr-[3px] pb-[3px] rounded-xl top-0 left-0">
+          <div className=' text-center rounded-xl -mt-2 -ml-2 bg-orange-seu-treino p-1 font-bold text-2xl w-[42px]'>{cardNumber}</div>
+        </div>
+        <div className='mt-6'>
+          <h3 className='font-bold text-2xl'>{title}</h3>
+          <p>{content}</p>
+        </div>
       </div>
     </div>
   )
