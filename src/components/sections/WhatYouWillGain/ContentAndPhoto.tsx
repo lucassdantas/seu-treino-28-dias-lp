@@ -1,6 +1,5 @@
-import { ImageWithborder } from '@/components/ImageWithBorder'
+import { ImageWithBorder } from '@/components/ImageWithBorder'
 import { ContentAndPhotoType } from '@/types/ContentAndPhoto'
-import React from 'react'
 
 
 interface ContentAndPhotoProps extends ContentAndPhotoType{
@@ -24,7 +23,7 @@ export const ContentAndPhoto = ({title, content, photo, altText, index, classNam
 export const ContentAndPhotoImage = ({photo, index, altText='Imagem do benefício'}:{photo:string, index:number, altText?:string}) => {
   return(
     <div className=''>
-      <ImageWithborder image={photo} altText={altText} width={'500px'} height={'420px'}/>
+      <ImageWithBorder image={photo} altText={altText} width={'500px'} height={'420px'} inverse={index%2 === 0 ? false:true}/>
     </div>
   )
 }

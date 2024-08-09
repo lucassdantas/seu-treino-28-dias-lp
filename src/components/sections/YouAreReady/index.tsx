@@ -1,7 +1,7 @@
 import { Section } from '@/components/Section'
 import brenoSilvaImg from '@/assets/breno-silva-persona-trainer.jpg'
 import { Button } from '@/components/Button'
-import { ImageWithborder } from '@/components/ImageWithBorder'
+import { ImageWithBorder } from '@/components/ImageWithBorder'
 
 export const YouAreReady = () => {
   return (
@@ -16,7 +16,7 @@ export const YouAreReady = () => {
         </div>
       </div>
       <div className='w-2/6'>
-        <ImageWithborder image={brenoSilvaImg} altText='Foto do Breno Silva' height={'512px'} width={'328px'}/>
+        <ImageWithBorder image={brenoSilvaImg} altText='Foto do Breno Silva' height={'512px'} width={'328px'} hasTabEffect={false}/>
       </div>
     </div>
   </Section>
