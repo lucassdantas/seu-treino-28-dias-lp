@@ -14,7 +14,7 @@ export const ReasonCards = () => {
     },
   ]
   return (
-    <div className='flex relative bg-neutral-900 rounded-xl p-8 justify-center gap-4'>
+    <div className='flex relative bg-neutral-900 rounded-3xl p-8 justify-center gap-4'>
       {CardsContent.map((card, i) => <Card title={card.title} content={card.content} cardNumber={i}/>
       )}
     </div>
@@ -24,8 +24,8 @@ export const ReasonCards = () => {
 
 export const Card = ({title, content, cardNumber}:{title:string, content:string, cardNumber:number}) => {
   return(
-    <div className="border border-orange-seu-treino rounded-xl w-1/3 pb-2 pr-2 ml-2 mt-4">
-      <div className='relative bg-white p-4 rounded-xl text-black text-left min-h-[412px] -mt-4 -ml-2'>
+    <div className="border border-orange-seu-treino rounded-3xl w-1/3 pb-2 pr-2 ml-2 mt-4">
+      <div className='relative bg-white p-4 rounded-3xl text-black text-left min-h-[412px] -mt-4 -ml-2'>
         <div className="absolute border border-black  pr-[3px] pb-[3px] rounded-xl top-0 left-0">
           <div className=' text-center rounded-xl -mt-2 -ml-2 bg-orange-seu-treino p-1 font-bold text-2xl w-[42px]'>{cardNumber}</div>
         </div>
