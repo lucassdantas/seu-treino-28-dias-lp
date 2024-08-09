@@ -23,7 +23,7 @@ export const ContentAndPhoto = ({title, content, photo, altText, index, classNam
 export const ContentAndPhotoImage = ({photo, index, altText='Imagem do benefício'}:{photo:string, index:number, altText?:string}) => {
   return(
     <div className=''>
-      <ImageWithBorder image={photo} altText={altText} width={'500px'} height={'420px'} inverse={index%2 === 0 ? false:true}/>
+      <ImageWithBorder image={photo} altText={altText} width={'500px'} height={'320px'} gray={true} inverse={index%2 === 0 ? false:true}/>
     </div>
   )
 }

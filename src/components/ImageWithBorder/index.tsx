@@ -5,9 +5,10 @@ type ImageWithBorderProps = {
   height: string;
   hasTabEffect?: boolean;
   inverse?: boolean;
+  gray?:boolean;
 }
 
-export const ImageWithBorder = ({ image, altText, width, height, hasTabEffect = true, inverse = false }: ImageWithBorderProps) => {
+export const ImageWithBorder = ({ image, altText, width, height, hasTabEffect = true, inverse = false, gray = false }: ImageWithBorderProps) => {
   return (
     <div className="relative rounded-lg min-h-[128px]">
       <div 
@@ -24,7 +25,7 @@ export const ImageWithBorder = ({ image, altText, width, height, hasTabEffect = 
       <img 
         src={image} 
         alt={altText} 
-        className={`z-10 relative rounded-xl h-full w-full object-cover ${inverse ? 'ml-2' : '-ml-2'}`}  
+        className={`z-10 relative rounded-xl h-full w-full object-cover ${gray? 'grayscale':''} ${inverse ? 'ml-2' : '-ml-2'}`}  
         style={{ height: height, width: width }}
       />
     </div>
