@@ -1,28 +1,31 @@
 import { Section } from '@/components/Section'
 import { ContentAndPhoto } from '@/components/sections/WhatYouWillGain/ContentAndPhoto'
 import { ContentAndPhotoType } from '@/types/ContentAndPhoto'
-import tempImage from '@/assets/mulher-treinando.jpg'
+import athleteInSquat from '@/assets/atleta-em-agachamento-28-dias-para-mudar.jpg'
+import athletesRunning from '@/assets/atletas-correndo-28-dias-para-mudar.jpg'
+import boardExercise from '@/assets/atletas-em-prancha-exercicio-28-dias-para-mudar.jpg'
+import coupleInBoardExercise from '@/assets/casal-em-prancha-exercicio-28-dias-para-mudar.jpg'
 export const WhatYouWillGain = () => {
   const contentAndPhotoData:ContentAndPhotoType[] = [
     {
       title:'Transformação Total em 28 Dias',
       content:"Treinamentos intensivos e eficazes, 100% com peso corporal, que você pode fazer em qualquer lugar.",
-      photo:tempImage
+      photo:athleteInSquat
     },
     {
       title:'Desenvolvimento de Mindset',
       content:"Acesse conteúdos exclusivos e diários que vão trabalhar sua mente, ajudando a criar uma mentalidade vencedora e resiliente.",
-      photo:tempImage
+      photo:athletesRunning
     },
     {
       title:'Alimentação Saudável',
       content:"Receba dicas e materiais extras sobre nutrição para potencializar seus resultados cuidadosamente elaborados pela renomada nutricionista Natane Menezes.",
-      photo:tempImage
+      photo:boardExercise
     },
     {
       title:'Apoio Contínuo',
       content:"Participe de um grupo fechado onde você terá acesso vitalício à nossa rede de membros, para compartilhar treinos, refeições, relatos e conquistas.",
-      photo:tempImage
+      photo:coupleInBoardExercise
     },
   ]
   return (
