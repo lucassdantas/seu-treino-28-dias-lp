@@ -8,7 +8,7 @@ export const MainBanner = () => {
       <div className='absolute w-screen h-full left-0 top-0 firstSection z-0 opacity-85'></div>
       <div className='relative z-20 p-2'>
         <img src={logo} alt='logo' className='max-w-[512px] w-full'/>
-        <div className="flex lg:flex-row flex-col items-start lg:items-center gap-12">
+        <div className="flex lg:flex-row flex-col items-start lg:items-center md:gap-12 gap-4">
           <div>
             <h1 className='font-extrabold text-5xl mb-2'>28 Dias para Mudar</h1>
             <p className='font-bold text-2xl'>A Revolução do seu Corpo, Mente e Estilo de Vida!</p>

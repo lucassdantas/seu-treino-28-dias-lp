@@ -4,7 +4,7 @@ import { ContentAndPhotoType } from '@/types/ContentAndPhoto'
 import athleteInSquat from '@/assets/atleta-em-agachamento-28-dias-para-mudar.jpg'
 import athletesRunning from '@/assets/atletas-correndo-28-dias-para-mudar.jpg'
 import boardExercise from '@/assets/atletas-em-prancha-exercicio-28-dias-para-mudar.jpg'
-import coupleInBoardExercise from '@/assets/casal-em-prancha-exercicio-28-dias-para-mudar.jpg'
+import exercisingWomanSmiling from '@/assets/mulher-sorridente-fazendo-exercicio.jpg'
 export const WhatYouWillGain = () => {
   const contentAndPhotoData:ContentAndPhotoType[] = [
     {
@@ -25,7 +25,7 @@ export const WhatYouWillGain = () => {
     {
       title:'Apoio Contínuo',
       content:"Participe de um grupo fechado onde você terá acesso vitalício à nossa rede de membros, para compartilhar treinos, refeições, relatos e conquistas.",
-      photo:coupleInBoardExercise
+      photo:exercisingWomanSmiling
     },
   ]
   return (

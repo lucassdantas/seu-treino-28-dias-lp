@@ -7,7 +7,7 @@ import './App.css'
 
 function App() {
   return (
-  <main className='bg-black'>
+  <main className='bg-black overflow-x-hidden'>
     <MainBanner/>
     <YouAreReady/>
     <WhatYouWillGain/>

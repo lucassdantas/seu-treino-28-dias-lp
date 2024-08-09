@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 type ImageWithBorderProps = {
   image: string;
@@ -42,7 +42,7 @@ export const ImageWithBorder = ({ image, altText, width, height, hasTabEffect = 
   );
 
   else return(
-    <div className="relative rounded-lg min-h-[128px]">
+    <div className="relative rounded-lg min-h-[128px] w-full">
       <div 
         className={`w-full z-20 absolute border border-orange-seu-treino rounded-xl mt-2`} 
         style={{ height: height }}
@@ -57,7 +57,7 @@ export const ImageWithBorder = ({ image, altText, width, height, hasTabEffect = 
       <img 
         src={image} 
         alt={altText} 
-        className={`w-fullz-10 relative rounded-xl h-full w-full object-cover ${gray ? 'grayscale' : ''} ${inverse ? 'ml-2' : '-ml-2'}`} 
+        className={`w-full z-10 relative rounded-xl h-full object-cover object ${gray ? 'grayscale' : ''} ${inverse ? 'ml-2' : '-ml-2'}`} 
         style={{ height: height }}
       />
   </div>
