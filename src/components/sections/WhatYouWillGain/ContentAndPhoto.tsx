@@ -8,8 +8,8 @@ interface ContentAndPhotoProps extends ContentAndPhotoType{
 }
 export const ContentAndPhoto = ({title, content, photo, altText, index, className=''}:ContentAndPhotoProps) => {
   return (
-    <div className={`flex ${index%2==0?'lg:flex-row':'lg:flex-row-reverse'} flex-col-reverse gap-4 items-center justify-center ${className}`}>
-      <div className='w-1/2 text-left'>
+    <div className={`flex ${index%2==0?'lg:flex-row':'lg:flex-row-reverse'} flex-col lg:mb-0 mb-8 gap-4 items-center justify-center ${className}`}>
+      <div className='lg:w-1/2 w-full lg:text-left text-center'>
         <h3 className='font-bold text-2xl mb-2'>{title}</h3>
         <p>{content}</p>
       </div>
