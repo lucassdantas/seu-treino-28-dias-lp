@@ -14,9 +14,12 @@ export const ReasonCards = () => {
     },
   ]
   return (
-    <div className='flex relative bg-neutral-900 rounded-3xl p-8 justify-center gap-4'>
-      {CardsContent.map((card, i) => <Card title={card.title} content={card.content} cardNumber={i}/>
-      )}
+    <div className='relative w-full flex flex-col items-center justify-center'>
+      <div className='absolute  w-[102%] h-[70px] rounded-xl z-0 bg-orange-seu-treino '></div>
+      <div className='flex z-10 relative bg-neutral-900 rounded-3xl p-8 justify-center gap-4'>
+        {CardsContent.map((card, i) => <Card title={card.title} content={card.content} cardNumber={i}/>
+        )}
+      </div>
     </div>
   )
 }
