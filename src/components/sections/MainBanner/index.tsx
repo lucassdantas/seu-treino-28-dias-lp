@@ -14,7 +14,7 @@ export const MainBanner = () => {
             <p className='font-bold text-2xl'>A Revolução do seu Corpo, Mente e Estilo de Vida!</p>
           </div>
           <ArrowButton size={64}/>
-      </div>
+        </div>
       </div>
     </Section>
   )
