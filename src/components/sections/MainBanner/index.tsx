@@ -12,7 +12,7 @@ export const MainBanner = () => {
           <div className='flex flex-col'>
             <h1 className='font-extrabold text-5xl mb-2'>28 Dias para Mudar</h1>
             <p className='font-bold text-2xl'>A Revolução do seu Corpo, Mente e Estilo de Vida!</p>
-            <Button text='Quero começar agora'/>
+            <Button/>
           </div>
         </div>
       </div>

@@ -15,7 +15,7 @@ export const TransformYourLife = () => {
             transformação completa do corpo e da mente. </p>
         </div>
         <div className='flex flex-col items-center gap-4'>
-          <Button text='Quero começar agora' />
+          <Button />
           <h2 className='text-4xl font-bold text-orange-seu-treino mt-6'>Seu Treino - 28 dias para mudar</h2>
           <p>Transforme seu corpo. Transforme sua mente. Transforme sua vida.</p>
           <div className='w-1/2 bg-orange-seu-treino h-[2px] rounded-xl opacity-25 mt-12'></div>

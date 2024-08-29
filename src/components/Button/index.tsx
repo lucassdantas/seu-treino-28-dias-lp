@@ -1,6 +1,6 @@
 import { MdOutlineArrowOutward } from 'react-icons/md'
 
-export const Button = ({text = 'Garanta sua inscrição', className=''}:{text?:string, className?:string}) => {
+export const Button = ({text = 'Quero começar agora', className=''}:{text?:string, className?:string}) => {
   return (
     <a className={`text-black cursor-pointer mt-8 ml-4 transition ease-in-out hover:scale-110 duration-300 max-w-[268px] ${className}`} href='https://pay.kiwify.com.br/rn2sINU' target='_blank'>
       <div className="border border-orange-seu-treino rounded-xl pb-2 pr-2 ">
