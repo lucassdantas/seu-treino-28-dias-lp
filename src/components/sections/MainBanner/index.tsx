@@ -13,7 +13,7 @@ export const MainBanner = () => {
             <h1 className='font-extrabold text-5xl mb-2'>28 Dias para Mudar</h1>
             <p className='font-bold text-2xl'>A Revolução do seu Corpo, Mente e Estilo de Vida!</p>
           </div>
-          <Button/>
+          <Button text='Quero começar agora'/>
         </div>
       </div>
     </Section>
