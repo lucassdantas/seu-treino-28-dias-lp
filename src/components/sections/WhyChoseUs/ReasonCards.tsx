@@ -5,10 +5,6 @@ export const ReasonCards = () => {
       content:'Sendo a porta de entrada do método metabólico primal, este programa foi criado para otimizar sua queima de gordura, fortalecer seus músculos e melhorar sua resistência, iniciando do zero e te levando a um bom condicionamento físico em 28 dias.'
     },
     {
-      title:'Acompanhamento Diário',
-      content:'Nunca se sinta sozinho nesta jornada. Nosso grupo fechado oferece suporte contínuo, motivação e dicas valiosas.'
-    },
-    {
       title:'Resultados Visíveis',
       content:'Em apenas 28 dias, sinta seu corpo mais leve e saudável e sua mente mais clara e focada.'
     },
@@ -17,7 +13,7 @@ export const ReasonCards = () => {
     <div className='relative w-full flex flex-col items-center justify-center'>
       <div className='absolute  w-[102%] h-[70px] rounded-xl z-0 bg-orange-seu-treino '></div>
       <div className='flex md:flex-row flex-col z-10 relative md:bg-neutral-900  bg-black rounded-3xl p-8 justify-center gap-4'>
-        {CardsContent.map((card, i) => <Card title={card.title} content={card.content} cardNumber={i}/>
+        {CardsContent.map((card, i) => <Card title={card.title} content={card.content} cardNumber={i+1}/>
         )}
       </div>
     </div>

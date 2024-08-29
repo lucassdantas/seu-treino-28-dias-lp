@@ -9,22 +9,22 @@ export const WhatYouWillGain = () => {
   const contentAndPhotoData:ContentAndPhotoType[] = [
     {
       title:'Transformação Total em 28 Dias',
-      content:"Treinamentos intensivos e eficazes, 100% com peso corporal, que você pode fazer em qualquer lugar.",
+      content:"Você terá acesso a 28 vídeo aulas diferentes que foram cuidadosamente elaboradas para serem executadas a cada dia do projeto",
       photo:athleteInSquat
     },
     {
-      title:'Desenvolvimento de Mindset',
-      content:"Acesse conteúdos exclusivos e diários que vão trabalhar sua mente, ajudando a criar uma mentalidade vencedora e resiliente.",
-      photo:athletesRunning
-    },
-    {
       title:'Alimentação Saudável',
-      content:"Receba dicas e materiais extras sobre nutrição para potencializar seus resultados cuidadosamente elaborados pela renomada nutricionista Natane Menezes.",
+      content:"Receba conteúdos exclusivos sobre como ter uma alimentação saudável, importância da hidratação e sono no processo do emagrecimento entre outros",
       photo:boardExercise
     },
     {
-      title:'Apoio Contínuo',
-      content:"Participe de um grupo fechado onde você terá acesso vitalício à nossa rede de membros, para compartilhar treinos, refeições, relatos e conquistas.",
+      title:'Acesso ao fórum',
+      content:"Você poderá fazer parte do nosso fórum onde irá compartilhar todas as suas experiências com outras pessoas e se tornar membro de nossa comunidade",
+      photo:exercisingWomanSmiling
+    },
+    {
+      title:'Bônus',
+      content:"Você receberá bônus exclusivos para potencializar seus resultados ",
       photo:exercisingWomanSmiling
     },
   ]
