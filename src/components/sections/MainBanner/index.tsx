@@ -1,5 +1,5 @@
 import logo from '@/assets/logo-seu-treino-linha-branca-breno-silva.png'
-import { ArrowButton, Button } from '@/components/Button'
+import { Button } from '@/components/Button'
 import { Section } from '@/components/Section'
 import './style.css'
 export const MainBanner = () => {
@@ -12,8 +12,8 @@ export const MainBanner = () => {
           <div>
             <h1 className='font-extrabold text-5xl mb-2'>28 Dias para Mudar</h1>
             <p className='font-bold text-2xl'>A Revolução do seu Corpo, Mente e Estilo de Vida!</p>
+            <Button text='Quero começar agora'/>
           </div>
-          <Button text='Quero começar agora'/>
         </div>
       </div>
     </Section>

@@ -25,7 +25,7 @@ export const WhatYouWillGain = () => {
     {
       title:'Bônus',
       content:"Você receberá bônus exclusivos para potencializar seus resultados ",
-      photo:exercisingWomanSmiling
+      photo:athletesRunning
     },
   ]
   return (
