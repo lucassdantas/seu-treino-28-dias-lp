@@ -1,31 +1,32 @@
 import { Section } from '@/components/Section'
 import { ContentAndPhoto } from '@/components/sections/WhatYouWillGain/ContentAndPhoto'
 import { ContentAndPhotoType } from '@/types/ContentAndPhoto'
-import athleteInSquat from '@/assets/atleta-em-agachamento-28-dias-para-mudar.jpg'
-import athletesRunning from '@/assets/atletas-correndo-28-dias-para-mudar.jpg'
-import boardExercise from '@/assets/atletas-em-prancha-exercicio-28-dias-para-mudar.jpg'
-import exercisingWomanSmiling from '@/assets/mulher-sorridente-fazendo-exercicio.jpg'
+import coupleDoingExercise from '@/assets/casal-se-exercitando-em-casa.jpg'
+import manInPranchPosition from '@/assets/homem-fazendo-prancha-em-casa.jpg'
+import manDoingFlexionAtHome from '@/assets/homem-fazendo-flexao-em-casa.jpg'
+import womanDoingAbdominalAtHome from '@/assets/mulher-se-exercitando-em-casa.jpg'
+
 export const WhatYouWillGain = () => {
   const contentAndPhotoData:ContentAndPhotoType[] = [
     {
       title:'Transformação Total em 28 Dias',
       content:"Você terá acesso a 28 vídeo aulas diferentes que foram cuidadosamente elaboradas para serem executadas a cada dia do projeto",
-      photo:athleteInSquat
+      photo:coupleDoingExercise
     },
     {
       title:'Alimentação Saudável',
       content:"Receba conteúdos exclusivos sobre como ter uma alimentação saudável, importância da hidratação e sono no processo do emagrecimento entre outros",
-      photo:boardExercise
+      photo:manInPranchPosition
     },
     {
       title:'Acesso ao fórum',
       content:"Você poderá fazer parte do nosso fórum onde irá compartilhar todas as suas experiências com outras pessoas e se tornar membro de nossa comunidade",
-      photo:exercisingWomanSmiling
+      photo:manDoingFlexionAtHome
     },
     {
       title:'Bônus',
       content:"Você receberá bônus exclusivos para potencializar seus resultados ",
-      photo:athletesRunning
+      photo:womanDoingAbdominalAtHome
     },
   ]
   return (
