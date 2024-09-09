@@ -3,6 +3,7 @@ import { MainBanner } from './components/sections/MainBanner'
 import { WhatYouWillGain } from '@/components/sections/WhatYouWillGain'
 import { WhyChoseUs } from '@/components/sections/WhyChoseUs'
 import { TransformYourLife } from '@/components/sections/TransformYourLife'
+import { Footer } from '@/components/sections/Footer'
 import './App.css'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <WhatYouWillGain/>
     <WhyChoseUs/>
     <TransformYourLife/>
+    <Footer/>
   </main>
   )
 }
